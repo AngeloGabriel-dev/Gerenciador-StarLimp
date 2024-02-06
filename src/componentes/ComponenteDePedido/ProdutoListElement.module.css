@@ -1,0 +1,14 @@
+.line{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(92, 92, 92);
+    padding: 20px;
+    font-size: 15pt;
+    color: aliceblue;
+}
+
+.line input{
+    width: 30px;
+    height: 30px;
+}

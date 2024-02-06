@@ -1,0 +1,43 @@
+.container{
+    margin: 10px;
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(63, 63, 255);
+    justify-content: space-between;
+}
+
+.container span{
+    font-size: 15pt;
+    margin: 10px;
+    margin-right: 150px;
+    color: aliceblue;
+}
+
+.container button{
+    background-color: rgb(31, 31, 31);
+    height: 30px;
+    margin: 10px;
+}
+
+.lixeira{
+    color:aliceblue;
+}
+
+.editar{
+    margin: 10px;
+    color: aliceblue;
+    background-color: rgb(31, 31, 31);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.editar:hover{
+    color: rgb(41, 45, 255);
+    transition: 0.5s;
+}
+.lixeira:hover{
+    color: rgb(41, 45, 255);
+    transition: 0.5s;
+}

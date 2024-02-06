@@ -1,0 +1,44 @@
+.conteiner {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media (min-width:0px) and (max-width: 800px){
+    .conteiner {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    
+    .min-height {
+        min-height: 75%;
+    }
+    
+    .start{
+        justify-content: flex-start;
+    }
+    
+    .column {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+}

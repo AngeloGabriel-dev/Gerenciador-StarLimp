@@ -1,0 +1,45 @@
+/*.container{
+    display: flex;
+    flex-direction: row;
+}*/
+
+.container{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.container label{
+    font-weight: bold;
+}
+
+.container select{
+    height: 40px;
+}
+
+.container span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.container input{
+    height: 34px;
+    width: 50px;
+    font-size: 10pt;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container button{
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+}
+
+.container button:hover {
+    color: rgb(116, 116, 255);
+}

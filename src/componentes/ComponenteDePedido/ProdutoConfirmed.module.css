@@ -1,0 +1,10 @@
+.line{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    font-size: 15pt;
+    color: rgb(206, 206, 206);
+    
+}

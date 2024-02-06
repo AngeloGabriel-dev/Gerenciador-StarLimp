@@ -1,0 +1,12 @@
+.container{
+    font-size: 15pt;
+    padding: 10px;
+    margin: 10px;    
+    background-color: #222;
+    color: antiquewhite;
+
+}
+
+.container span{
+    margin-right: 20px;
+}

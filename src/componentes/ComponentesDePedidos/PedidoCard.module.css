@@ -1,0 +1,43 @@
+.container{
+    border:solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(84, 84, 223);
+    color: aliceblue;
+    font-size: 15pt;
+}
+
+
+.container button{
+    background-color: rgb(31, 31, 31);
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    margin: 10px;
+    font-size: 10pt;
+}
+
+.container a:hover{
+    color: rgb(41, 45, 255);
+    transition: 0.5s;
+    padding: 13px;
+    margin: 13px;
+    font-size: 13pt;
+}
+
+.container button:hover{
+    color: rgb(41, 45, 255);
+    transition: 0.5s;
+    padding: 13px;
+    margin: 13px;
+    font-size: 13pt;
+}
